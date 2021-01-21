@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "test": "npm run eslint",
-    "eslint": "eslint ./src/**/*.ts"
+    "eslint": "eslint ./src/**/*.ts",
+    "start": "node ./src/index.js"
   },
   "keywords": [],
   "author": "Sander Koenders",
